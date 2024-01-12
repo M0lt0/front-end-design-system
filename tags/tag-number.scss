@@ -1,0 +1,124 @@
+.tagContainer {
+    display: inline-flex;
+    min-width: var(--tag-number-min-width, 40px);
+    max-width: var(--tag-max-width, 320px);
+    min-height: var(--tag-min-height, 38px);
+    padding: var(--size-tiny, 8px) var(--size-small, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-tiny, 8px);
+    .icon {
+        width: var(--size-small, 16px);
+        height: var(--size-small, 16px);
+        &.info {
+            color: var(--color-feedbacks-information-strong, #1266e3);
+        }
+        &.error {
+            color: var(--color-feedbacks-error-strong, ##f2200d);
+        }
+        &.warning {
+            color: var(--color-feedbacks-warning-strong, #ff7f00);
+        }
+        &.success {
+            color: var(--color-feedbacks-sucess-strong, #4aa848);
+        }
+        &.neutral {
+            color: var(--color-feedbacks-neutral-soft, #ffffff);
+        }
+    }
+
+    .number {
+        &.info {
+            color: var(--color-feedbacks-information-strong, #051c3d);
+            text-align: center;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+
+            /* Label/16/Bold */
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &.error {
+            color: var(--color-feedbacks-error-strong, #490a04);
+            text-align: center;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+
+            /* Label/16/Semibold */
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &.warning {
+            color: var(--color-feedbacks-warning-strong, #4c2600);
+            text-align: center;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+
+            /* Label/16/Semibold */
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &.success {
+            color: var(--color-feedbacks-sucess-strong, #132b12);
+            text-align: center;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+
+            /* Label/16/Semibold */
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &.neutral {
+            color: var(--color-feedbacks-neutral-soft, #fff);
+            text-align: center;
+            font-feature-settings:
+                "clig" off,
+                "liga" off;
+
+            /* Label/16/Semibold */
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+    &.status {
+        &.info {
+            border-radius: var(--size-large, 80px);
+            background: var(--color-feedbacks-information-soft, #deeafc);
+        }
+        &.error {
+            border-radius: var(--size-large, 80px);
+            background: var(--color-feedbacks-error-soft, #fee9e7);
+        }
+        &.warning {
+            border-radius: var(--size-large, 80px);
+            background: var(--color-feedbacks-warning-soft, #fff8f2);
+        }
+        &.sucess {
+            border-radius: var(--size-large, 80px);
+            background: var(--color-feedbacks-sucess-soft, #e3f3e2);
+        }
+        &.neutral {
+            border-radius: var(--size-large, 80px);
+            background: var(--color-feedbacks-neutral-moderate, #adb2b8);
+        }
+    }
+}
