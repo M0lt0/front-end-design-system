@@ -7,6 +7,25 @@
     justify-content: center;
     align-items: center;
     gap: var(--size-tiny, 8px);
+    border-radius: var(--size-large, 80px);
+    background: var(--color-feedbacks-information-soft, #DEEAFC);
+    .status{
+        &.info {
+            background: var(--color-feedbacks-information-soft, #DEEAFC);
+        }
+        &.error {
+            background: var(--color-feedbacks-error-soft, #FEE9E7);
+        }
+        &.warning {
+            background: var(--color-feedbacks-warning-soft, #FFF8F2);
+        }
+        &.success {
+            background: var(--color-feedbacks-sucess-soft, #E3F3E2);
+        }
+        &.neutral {
+            background: var(--color-feedbacks-neutral-moderate, #ADB2B8);
+        }
+    }
     .icon {
         width: var(--size-small, 16px);
         height: var(--size-small, 16px);
@@ -14,7 +33,7 @@
             color: var(--color-feedbacks-information-strong, #1266e3);
         }
         &.error {
-            color: var(--color-feedbacks-error-strong, ##f2200d);
+            color: var(--color-feedbacks-error-strong, #f2200d);
         }
         &.warning {
             color: var(--color-feedbacks-warning-strong, #ff7f00);
@@ -26,7 +45,6 @@
             color: var(--color-feedbacks-neutral-soft, #ffffff);
         }
     }
-
     .number {
         &.info {
             color: var(--color-feedbacks-information-strong, #051c3d);
@@ -34,7 +52,6 @@
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-
             /* Label/16/Bold */
             font-family: Nunito;
             font-size: 16px;
@@ -48,7 +65,6 @@
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-
             /* Label/16/Semibold */
             font-family: Nunito;
             font-size: 16px;
@@ -62,7 +78,6 @@
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-
             /* Label/16/Semibold */
             font-family: Nunito;
             font-size: 16px;
@@ -76,7 +91,6 @@
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-
             /* Label/16/Semibold */
             font-family: Nunito;
             font-size: 16px;
@@ -90,7 +104,6 @@
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-
             /* Label/16/Semibold */
             font-family: Nunito;
             font-size: 16px;
@@ -98,7 +111,6 @@
             font-weight: 600;
             line-height: normal;
         }
-    }
     &.status {
         &.info {
             border-radius: var(--size-large, 80px);
@@ -121,4 +133,5 @@
             background: var(--color-feedbacks-neutral-moderate, #adb2b8);
         }
     }
+}
 }
