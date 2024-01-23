@@ -159,6 +159,10 @@
 .icon-right {
     width: var(--size-small, 16px);
     height: var(--size-small, 16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     &.info {
         color: var(--color-feedbacks-information-soft, #1266e3);
     }
