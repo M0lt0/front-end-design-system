@@ -1,4 +1,4 @@
-.square_tag {
+.tag-info {
     display: inline-flex;
     min-width: var(--tag-min-width, 104px);
     max-width: var(--tag-max-width, 320px);
@@ -8,28 +8,27 @@
     align-items: center;
     gap: var(--size-tiny, 8px);
     border-radius: var(--size-tiny, 8px);
-
     &.status {
         &.info {
             background: var(--color-feedbacks-information-soft, #deeafc);
         }
         &.error {
-            background: var(--color-feedbacks-error-soft, #fee9e7);
+            background: var(--color-feedbacks-error-soft);
         }
         &.warning {
-            background: var(--color-feedbacks-warning-soft, #fff8f2);
+            background: var(--color-feedbacks-warning-soft);
         }
         &.success {
-            background: var(--color-feedbacks-success-soft, #e3f3e2);
+            background: var(--color-feedbacks-success-soft);
         }
         &.neutral {
-            background: var(--color-feedbacks-neutral-moderate, #adb2b8);
+            background: var(--color-feedbacks-neutral-moderate);
         }
     }
 }
 .label {
     &.info {
-        color: var(--color-feedbacks-information-strong, #051c3d);
+        color: var(--color-feedbacks-information-strong);
         font-feature-settings:
             "clig" off,
             "liga" off;
@@ -42,7 +41,7 @@
         line-height: normal;
     }
     &.error {
-        color: var(--color-feedbacks-error-strong, #490a04);
+        color: var(--color-feedbacks-error-strong);
         font-feature-settings:
             "clig" off,
             "liga" off;
@@ -55,7 +54,7 @@
         line-height: normal;
     }
     &.warning {
-        color: var(--color-feedbacks-warning-strong, #4c2600);
+        color: var(--color-feedbacks-warning-strong);
         font-feature-settings:
             "clig" off,
             "liga" off;
@@ -68,7 +67,7 @@
         line-height: normal;
     }
     &.success {
-        color: var(--color-feedbacks-sucess-strong, #132b12);
+        color: var(--color-feedbacks-sucess-strong);
         font-feature-settings:
             "clig" off,
             "liga" off;
@@ -81,7 +80,7 @@
         line-height: normal;
     }
     &.neutral {
-        color: var(--color-feedbacks-neutral-soft, #fff);
+        color: var(--color-feedbacks-neutral-soft);
         font-feature-settings:
             "clig" off,
             "liga" off;
@@ -94,9 +93,9 @@
         line-height: normal;
     }
 }
-.number {
+.show-number {
     &.info {
-        color: var(--color-feedbacks-information-strong, #051c3d);
+        color: var(--color-feedbacks-information-strong);
         text-align: center;
         font-feature-settings:
             "clig" off,
@@ -110,7 +109,7 @@
         line-height: normal;
     }
     &.error {
-        color: var(--color-feedbacks-error-strong, #490a04);
+        color: var(--color-feedbacks-error-strong);
         text-align: center;
         font-feature-settings:
             "clig" off,
@@ -124,7 +123,7 @@
         line-height: normal;
     }
     &.warning {
-        color: var(--color-feedbacks-warning-strong, #4c2600);
+        color: var(--color-feedbacks-warning-strong);
         text-align: center;
         font-feature-settings:
             "clig" off,
@@ -138,7 +137,7 @@
         line-height: normal;
     }
     &.success {
-        color: var(--color-feedbacks-success-strong, #132b12);
+        color: var(--color-feedbacks-success-strong);
         text-align: center;
         font-feature-settings:
             "clig" off,
@@ -152,7 +151,7 @@
         line-height: normal;
     }
     &.neutral {
-        color: var(--color-feedbacks-neutral-soft, #fff);
+        color: var(--color-feedbacks-neutral-soft);
         text-align: center;
         font-feature-settings:
             "clig" off,
@@ -166,23 +165,24 @@
         line-height: normal;
     }
 }
-.icon {
+
+.icon-left,
+.icon-right {
     width: var(--size-small, 16px);
     height: var(--size-small, 16px);
-
     &.info {
-        color: var(--color-feedbacks-information-soft, #1266e3);
+        color: var(--color-feedbacks-information-soft);
     }
     &.error {
-        color: var(--color-feedbacks-error-soft, #f2200d);
+        color: var(--color-feedbacks-error-soft);
     }
     &.warning {
-        color: var(--color-feedbacks-warning-soft, #ff7f00);
+        color: var(--color-feedbacks-warning-soft);
     }
     &.success {
-        color: var(--color-feedbacks-success-soft, #4aa848);
+        color: var(--color-feedbacks-success-soft);
     }
     &.neutral {
-        color: var(--color-feedbacks-neutral-moderate, #ffffff);
+        color: var(--color-feedbacks-neutral-moderate);
     }
 }
