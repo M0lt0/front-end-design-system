@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="10px" viewBox="0 0 83 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Arrows / Dotted / #1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Coordenador-/-Professor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Admin-do-cliente-[Fluxograma]" transform="translate(-714.000000, -457.000000)">
+            <g id="Fluxo" transform="translate(32.000000, 241.000000)">
+                <g id="Arrows-/-Dotted-/-#1" transform="translate(685.000000, 218.000000)">
+                    <g id="#1" transform="translate(-1.777778, -1.000000)">
+                        <path d="M4.5,4 L78.2777778,4" id="Line" stroke="#CACCD4" stroke-dasharray="2,2"></path>
+                        <circle id="Oval-3" stroke="#FFFFFF" stroke-width="1.4" fill="#909191" cx="3.5" cy="4" r="3.5"></circle>
+                        <path d="M78.6037981,1.76308892 C78.1475997,1.45895662 77.7777778,1.66860114 77.7777778,2.20903446 L77.7777778,5.79037743 C77.7777778,6.34079866 78.1488088,6.53964918 78.6037981,6.23632297 L81.1327033,4.55038619 C81.5889018,4.24625389 81.5876926,3.75235191 81.1327033,3.4490257 L78.6037981,1.76308892 Z" id="Shape" fill="#909191"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="660" viewBox="0 0 500 660">
+    <defs>
+        <style>
+            .cls-1{opacity:.2;fill:url(#linear-gradient)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset="1"/>
+        </linearGradient>
+    </defs>
+    <path id="isabele" d="M80 0h416a4 4 0 0 1 4 4v576a80 80 0 0 1-80 80H4a4 4 0 0 1-4-4V80A80 80 0 0 1 80 0z" class="cls-1"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.998" viewBox="0 0 12 6.998">
+    <defs>
+        <style>
+            .cls-1{fill:#565757}
+        </style>
+    </defs>
+    <path id="angle-down" d="M409 654a.38.38 0 0 1-.12.277l-5.6 5.6a.378.378 0 0 1-.553 0l-5.6-5.6a.378.378 0 0 1 0-.553l.6-.6a.378.378 0 0 1 .553 0l4.72 4.722 4.725-4.725a.378.378 0 0 1 .553 0l.6.6A.38.38 0 0 1 409 654z" class="cls-1" transform="translate(-397 -653)"/>
+</svg>

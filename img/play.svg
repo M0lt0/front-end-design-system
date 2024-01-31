@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.292" height="19.518" viewBox="0 0 16.292 19.518">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px}
+        </style>
+    </defs>
+    <path id="play" d="M5 3l11.292 7.259L5 17.518z" class="cls-1" transform="translate(-2.5 -.5)"/>
+</svg>

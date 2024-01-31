@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="422px" height="80px" viewBox="0 0 422 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>overall activity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,4.99968666 C0,2.23843596 2.24512372,0 4.99603278,0 L417.003967,0 C419.7632,0 422,2.24657919 422,4.99968666 L422,246.000313 C422,248.761564 419.754876,251 417.003967,251 L4.99603278,251 C2.23680007,251 0,248.753421 0,246.000313 L0,4.99968666 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="-266.354309%" x2="50%" y2="57.014319%" id="linearGradient-3">
+            <stop stop-color="#24A056" stop-opacity="0.978600543" offset="0%"></stop>
+            <stop stop-color="#24A056" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Inicio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Painel-da-turma" transform="translate(-1143.000000, -766.000000)">
+            <g id="Graficos" transform="translate(1142.000000, 154.000000)">
+                <g id="2" transform="translate(0.000000, 395.000000)">
+                    <g id="Group" transform="translate(0.000000, 46.000000)">
+                        <g id="overall-activity" transform="translate(1.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Rectangle-path"></g>
+                            <path d="M68.3406076,223.085034 C86.4651561,208.549518 95.3271214,191.733973 108.030305,199.127896 C120.733489,206.521819 139.221446,232.554534 157.642427,225.390944 C176.063408,218.227353 201.348226,194.712764 224.618792,200.421897 C247.889358,206.132324 254.706064,222.080889 271.750308,216.168597 C288.794553,210.256306 299.385501,163.867658 325.08334,173.247872 C350.781179,182.628087 361.700807,205.694952 380.896977,205.79459 C400.093147,205.892934 392.669934,229.957474 411.904553,222.419917 C431.139173,214.88236 448.64357,210.355944 459.036069,238.070861 C469.428569,265.787073 460.276372,313 460.276372,313 L-16,302.624699 L-7.31787863,220.780418 C-7.31787863,220.780418 50.2160591,237.620549 68.3406076,223.085034 Z" id="Shape" stroke="#24A056" stroke-width="2" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                            <path d="M283.5,192.5 C283.5,186.980188 287.983666,182.5 293.5,182.5 C299.019812,182.5 303.5,186.983666 303.5,192.5 C303.5,198.019812 299.016334,202.5 293.5,202.5 C287.980188,202.5 283.5,198.016334 283.5,192.5 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="3" fill="#24A056" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

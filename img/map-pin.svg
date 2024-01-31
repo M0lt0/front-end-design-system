@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.117" height="25.365" viewBox="0 0 21.117 25.365">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#eb5371;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="map-pin" transform="translate(1 1)">
+        <path id="Caminho_45" d="M22.117 10.558c0 7.434-9.558 13.807-9.558 13.807S3 17.993 3 10.558a9.558 9.558 0 1 1 19.117 0z" class="cls-1" data-name="Caminho 45" transform="translate(-3 -1)"/>
+        <circle id="Elipse_172" cx="3.226" cy="3.226" r="3.226" class="cls-1" data-name="Elipse 172" transform="translate(6.452 6.59)"/>
+    </g>
+</svg>
